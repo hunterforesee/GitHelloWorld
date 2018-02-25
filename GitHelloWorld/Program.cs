@@ -10,6 +10,7 @@ namespace GitHelloWorld
             Console.WriteLine("你好");
             Console.ReadKey();
             IPAddress address = IPAddress.Parse("192.168.2.103");
+            IPAddress address = IPAddress.Parse("192.168.2.103");
         }
 
 
