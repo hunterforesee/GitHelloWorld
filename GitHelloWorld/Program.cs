@@ -15,6 +15,7 @@ namespace GitHelloWorld
             Socket sockerserver = new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
             sockerserver.Bind(new IPEndPoint(address,7788));
 
+
             sockerserver.Listen(100);
 
             Socket client = sockerserver.Accept();
